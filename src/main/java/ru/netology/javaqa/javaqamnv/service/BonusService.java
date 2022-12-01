@@ -1,6 +1,6 @@
-package org.example;
+package ru.netology.javaqa.javaqamnv.service;
 
-public class BonusService {
+public class  BonusService {
     public long calculate(long amount, boolean isRegistered) {
         int percent = isRegistered ? 3 : 1;
         long bonus = amount * percent / 100;
